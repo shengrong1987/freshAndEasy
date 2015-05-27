@@ -4,8 +4,6 @@
 <dict>
 	<key>easy</key>
 	<dict>
-		<key>reversable</key>
-		<false/>
 		<key>status</key>
 		<string>0</string>
 		<key>desc</key>
@@ -30,7 +28,7 @@
 				</dict>
 				<dict>
 					<key>after</key>
-					<string>action-Return</string>
+					<string></string>
 					<key>condition</key>
 					<string>easy-3,mirror-1 || easy-3</string>
 					<key>action</key>
@@ -79,6 +77,8 @@
 	</dict>
 	<key>mirror</key>
 	<dict>
+		<key>listeningList</key>
+		<array/>
 		<key>reversable</key>
 		<false/>
 		<key>status</key>
@@ -108,14 +108,16 @@
 					<string>action-SHOW,animation-SHOW</string>
 				</dict>
 			</array>
-			<key>after</key>
-			<string></string>
 		</dict>
 	</dict>
 	<key>basket</key>
 	<dict>
+		<key>listeningList</key>
+		<array>
+			<string>easy</string>
+		</array>
 		<key>reversable</key>
-		<false/>
+		<true/>
 		<key>status</key>
 		<string>0</string>
 		<key>desc</key>
@@ -143,8 +145,6 @@
 					<string>animation-openbasket</string>
 				</dict>
 			</array>
-			<key>after</key>
-			<string>easy</string>
 		</dict>
 	</dict>
 	<key>chair</key>
