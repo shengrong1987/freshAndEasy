@@ -131,20 +131,7 @@
 			<key>before</key>
 			<string>animation-basketshake</string>
 			<key>onaction</key>
-			<array>
-				<dict>
-					<key>condition</key>
-					<string>basket-1</string>
-					<key>action</key>
-					<string>animation-closebasket</string>
-				</dict>
-				<dict>
-					<key>condition</key>
-					<string>basket-0</string>
-					<key>action</key>
-					<string>animation-openbasket</string>
-				</dict>
-			</array>
+			<array/>
 		</dict>
 	</dict>
 	<key>chair</key>
@@ -217,6 +204,8 @@
 	</dict>
 	<key>furry ball</key>
 	<dict>
+		<key>listeningList</key>
+		<string></string>
 		<key>reversable</key>
 		<false/>
 		<key>status</key>
@@ -234,16 +223,12 @@
 			<key>onaction</key>
 			<array>
 				<dict>
-					<key>after</key>
-					<string></string>
 					<key>condition</key>
 					<string>easy-4</string>
 					<key>action</key>
 					<string>action-GONE</string>
 				</dict>
 				<dict>
-					<key>after</key>
-					<string></string>
 					<key>condition</key>
 					<string></string>
 					<key>action</key>
