@@ -20,6 +20,10 @@
 		CB4A96B11B1525230020575A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A96AF1B1525230020575A /* spark.png */; };
 		CB4A96B51B1527BE0020575A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96B41B1527BE0020575A /* Item.swift */; };
 		CB4A96B71B1528190020575A /* Enumertations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96B61B1528190020575A /* Enumertations.swift */; };
+		CB4A96BF1B1686F30020575A /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96BE1B1686F30020575A /* State.swift */; };
+		CB4A96C11B1687900020575A /* CatRunAwayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C01B1687900020575A /* CatRunAwayState.swift */; };
+		CB4A96C31B1687E40020575A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C21B1687E40020575A /* Cat.swift */; };
+		CB4A96C51B168AED0020575A /* CatStayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C41B168AED0020575A /* CatStayState.swift */; };
 		F22FEEBF1B16850800A94187 /* door_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEBD1B16850800A94187 /* door_02.png */; };
 		F22FEEC01B16850800A94187 /* door_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEBE1B16850800A94187 /* door_01.png */; };
 		F22FEEC21B16854900A94187 /* Scene1_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEC11B16854900A94187 /* Scene1_bg.png */; };
@@ -37,10 +41,6 @@
 		F22FEEE51B1688E000A94187 /* mirror_it.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE31B1688E000A94187 /* mirror_it.png */; };
 		F22FEEE61B1688E000A94187 /* mirror_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE41B1688E000A94187 /* mirror_01.png */; };
 		F22FEEE91B16891200A94187 /* window_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE81B16891200A94187 /* window_01.png */; };
-		CB4A96BF1B1686F30020575A /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96BE1B1686F30020575A /* State.swift */; };
-		CB4A96C11B1687900020575A /* CatRunAwayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C01B1687900020575A /* CatRunAwayState.swift */; };
-		CB4A96C31B1687E40020575A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C21B1687E40020575A /* Cat.swift */; };
-		CB4A96C51B168AED0020575A /* CatStayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C41B168AED0020575A /* CatStayState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,27 +71,27 @@
 		CB4A96AF1B1525230020575A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		CB4A96B41B1527BE0020575A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CB4A96B61B1528190020575A /* Enumertations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumertations.swift; sourceTree = "<group>"; };
-		F22FEEBD1B16850800A94187 /* door_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_02.png; path = "../../../Desktop/Game Finding Easy/trans01/door_02.png"; sourceTree = "<group>"; };
-		F22FEEBE1B16850800A94187 /* door_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_01.png; path = "../../../Desktop/Game Finding Easy/trans01/door_01.png"; sourceTree = "<group>"; };
-		F22FEEC11B16854900A94187 /* Scene1_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scene1_bg.png; path = "../../../Desktop/Game Finding Easy/trans01/Scene1_bg.png"; sourceTree = "<group>"; };
-		F22FEEC41B16869200A94187 /* bed_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bed_01.png; path = "../../../Desktop/Game Finding Easy/trans01/bed_01.png"; sourceTree = "<group>"; };
-		F22FEEC71B1686D300A94187 /* basket_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_02.png; path = "../../../Desktop/Game Finding Easy/trans01/basket_02.png"; sourceTree = "<group>"; };
-		F22FEEC81B1686D300A94187 /* basket_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_01.png; path = "../../../Desktop/Game Finding Easy/trans01/basket_01.png"; sourceTree = "<group>"; };
-		F22FEED31B1687B700A94187 /* desk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = desk.png; path = "../../../Desktop/Game Finding Easy/trans01/desk.png"; sourceTree = "<group>"; };
-		F22FEED51B1687E100A94187 /* painting_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_01.png; path = "../../../Desktop/Game Finding Easy/trans01/painting_01.png"; sourceTree = "<group>"; };
-		F22FEED61B1687E100A94187 /* painting_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_02.png; path = "../../../Desktop/Game Finding Easy/trans01/painting_02.png"; sourceTree = "<group>"; };
-		F22FEED91B16886300A94187 /* knite stick_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_it.png"; path = "../../../Desktop/Game Finding Easy/trans01/knite stick_it.png"; sourceTree = "<group>"; };
-		F22FEEDA1B16886300A94187 /* knite stick_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_01.png"; path = "../../../Desktop/Game Finding Easy/trans01/knite stick_01.png"; sourceTree = "<group>"; };
-		F22FEEDD1B16889000A94187 /* furry ball_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_it.png"; path = "../../../Desktop/Game Finding Easy/trans01/furry ball_it.png"; sourceTree = "<group>"; };
-		F22FEEDE1B16889000A94187 /* furry ball_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_01.png"; path = "../../../Desktop/Game Finding Easy/trans01/furry ball_01.png"; sourceTree = "<group>"; };
-		F22FEEE11B1688B900A94187 /* chair_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair_01.png; path = "../../../Desktop/Game Finding Easy/trans01/chair_01.png"; sourceTree = "<group>"; };
-		F22FEEE31B1688E000A94187 /* mirror_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_it.png; path = "../../../Desktop/Game Finding Easy/trans01/mirror_it.png"; sourceTree = "<group>"; };
-		F22FEEE41B1688E000A94187 /* mirror_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_01.png; path = "../../../Desktop/Game Finding Easy/trans01/mirror_01.png"; sourceTree = "<group>"; };
-		F22FEEE81B16891200A94187 /* window_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = window_01.png; path = "../../../Desktop/Game Finding Easy/trans01/window_01.png"; sourceTree = "<group>"; };
 		CB4A96BE1B1686F30020575A /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		CB4A96C01B1687900020575A /* CatRunAwayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatRunAwayState.swift; sourceTree = "<group>"; };
 		CB4A96C21B1687E40020575A /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		CB4A96C41B168AED0020575A /* CatStayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatStayState.swift; sourceTree = "<group>"; };
+		F22FEEBD1B16850800A94187 /* door_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_02.png; path = Images.xcassets/door_02.png; sourceTree = "<group>"; };
+		F22FEEBE1B16850800A94187 /* door_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_01.png; path = Images.xcassets/door_01.png; sourceTree = "<group>"; };
+		F22FEEC11B16854900A94187 /* Scene1_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scene1_bg.png; path = Images.xcassets/Scene1_bg.png; sourceTree = "<group>"; };
+		F22FEEC41B16869200A94187 /* bed_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bed_01.png; path = Images.xcassets/bed_01.png; sourceTree = "<group>"; };
+		F22FEEC71B1686D300A94187 /* basket_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_02.png; path = Images.xcassets/basket_02.png; sourceTree = "<group>"; };
+		F22FEEC81B1686D300A94187 /* basket_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_01.png; path = Images.xcassets/basket_01.png; sourceTree = "<group>"; };
+		F22FEED31B1687B700A94187 /* desk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = desk.png; path = Images.xcassets/desk.png; sourceTree = "<group>"; };
+		F22FEED51B1687E100A94187 /* painting_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_01.png; path = Images.xcassets/painting_01.png; sourceTree = "<group>"; };
+		F22FEED61B1687E100A94187 /* painting_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_02.png; path = Images.xcassets/painting_02.png; sourceTree = "<group>"; };
+		F22FEED91B16886300A94187 /* knite stick_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_it.png"; path = "Images.xcassets/knite stick_it.png"; sourceTree = "<group>"; };
+		F22FEEDA1B16886300A94187 /* knite stick_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_01.png"; path = "Images.xcassets/knite stick_01.png"; sourceTree = "<group>"; };
+		F22FEEDD1B16889000A94187 /* furry ball_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_it.png"; path = "Images.xcassets/furry ball_it.png"; sourceTree = "<group>"; };
+		F22FEEDE1B16889000A94187 /* furry ball_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_01.png"; path = "Images.xcassets/furry ball_01.png"; sourceTree = "<group>"; };
+		F22FEEE11B1688B900A94187 /* chair_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair_01.png; path = Images.xcassets/chair_01.png; sourceTree = "<group>"; };
+		F22FEEE31B1688E000A94187 /* mirror_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_it.png; path = Images.xcassets/mirror_it.png; sourceTree = "<group>"; };
+		F22FEEE41B1688E000A94187 /* mirror_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_01.png; path = Images.xcassets/mirror_01.png; sourceTree = "<group>"; };
+		F22FEEE81B16891200A94187 /* window_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = window_01.png; path = Images.xcassets/window_01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
