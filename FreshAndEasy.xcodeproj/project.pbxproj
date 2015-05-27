@@ -15,7 +15,11 @@
 		CB4A965F1B12A6B70020575A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4A965E1B12A6B70020575A /* Images.xcassets */; };
 		CB4A96621B12A6B70020575A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB4A96601B12A6B70020575A /* LaunchScreen.xib */; };
 		CB4A966E1B12A6B80020575A /* FreshAndEasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A966D1B12A6B80020575A /* FreshAndEasyTests.swift */; };
-		CB4A969C1B12B7760020575A /* BBItemsets.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB4A969B1B12B7760020575A /* BBItemsets.sks */; };
+		CB4A96A81B15153A0020575A /* gameAI.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB4A96A71B15153A0020575A /* gameAI.plist */; };
+		CB4A96B01B1525230020575A /* shine.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB4A96AE1B1525230020575A /* shine.sks */; };
+		CB4A96B11B1525230020575A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A96AF1B1525230020575A /* spark.png */; };
+		CB4A96B51B1527BE0020575A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96B41B1527BE0020575A /* Item.swift */; };
+		CB4A96B71B1528190020575A /* Enumertations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96B61B1528190020575A /* Enumertations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,11 @@
 		CB4A96671B12A6B80020575A /* FreshAndEasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshAndEasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4A966C1B12A6B80020575A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB4A966D1B12A6B80020575A /* FreshAndEasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshAndEasyTests.swift; sourceTree = "<group>"; };
-		CB4A969B1B12B7760020575A /* BBItemsets.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BBItemsets.sks; sourceTree = "<group>"; };
+		CB4A96A71B15153A0020575A /* gameAI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gameAI.plist; sourceTree = "<group>"; };
+		CB4A96AE1B1525230020575A /* shine.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = shine.sks; sourceTree = "<group>"; };
+		CB4A96AF1B1525230020575A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CB4A96B41B1527BE0020575A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CB4A96B61B1528190020575A /* Enumertations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumertations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,8 @@
 		CB4A96501B12A6B70020575A /* FreshAndEasy */ = {
 			isa = PBXGroup;
 			children = (
+				CB4A96AB1B1524D90020575A /* effects */,
+				CB4A96A11B13FC7A0020575A /* images */,
 				CB4A96531B12A6B70020575A /* AppDelegate.swift */,
 				CB4A96551B12A6B70020575A /* GameSceneFirst.sks */,
 				CB4A96571B12A6B70020575A /* GameScene.swift */,
@@ -91,7 +101,9 @@
 				CB4A965E1B12A6B70020575A /* Images.xcassets */,
 				CB4A96601B12A6B70020575A /* LaunchScreen.xib */,
 				CB4A96511B12A6B70020575A /* Supporting Files */,
-				CB4A969B1B12B7760020575A /* BBItemsets.sks */,
+				CB4A96A71B15153A0020575A /* gameAI.plist */,
+				CB4A96B61B1528190020575A /* Enumertations.swift */,
+				CB4A96B41B1527BE0020575A /* Item.swift */,
 			);
 			path = FreshAndEasy;
 			sourceTree = "<group>";
@@ -119,6 +131,46 @@
 				CB4A966C1B12A6B80020575A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB4A96A11B13FC7A0020575A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CB4A96BC1B15413C0020575A /* 0002 */,
+				CB4A96A91B1517E50020575A /* 0001 */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CB4A96A91B1517E50020575A /* 0001 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 0001;
+			sourceTree = "<group>";
+		};
+		CB4A96AB1B1524D90020575A /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				CB4A96AE1B1525230020575A /* shine.sks */,
+				CB4A96AF1B1525230020575A /* spark.png */,
+			);
+			name = effects;
+			sourceTree = "<group>";
+		};
+		CB4A96BC1B15413C0020575A /* 0002 */ = {
+			isa = PBXGroup;
+			children = (
+				CB4A96BD1B1541420020575A /* openbox.atlas */,
+			);
+			name = 0002;
+			sourceTree = "<group>";
+		};
+		CB4A96BD1B1541420020575A /* openbox.atlas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = openbox.atlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,11 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4A96A81B15153A0020575A /* gameAI.plist in Resources */,
+				CB4A96B01B1525230020575A /* shine.sks in Resources */,
 				CB4A96621B12A6B70020575A /* LaunchScreen.xib in Resources */,
+				CB4A96B11B1525230020575A /* spark.png in Resources */,
 				CB4A965F1B12A6B70020575A /* Images.xcassets in Resources */,
 				CB4A96561B12A6B70020575A /* GameSceneFirst.sks in Resources */,
 				CB4A965D1B12A6B70020575A /* Main.storyboard in Resources */,
-				CB4A969C1B12B7760020575A /* BBItemsets.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4A96581B12A6B70020575A /* GameScene.swift in Sources */,
+				CB4A96B71B1528190020575A /* Enumertations.swift in Sources */,
+				CB4A96B51B1527BE0020575A /* Item.swift in Sources */,
 				CB4A965A1B12A6B70020575A /* GameViewController.swift in Sources */,
 				CB4A96541B12A6B70020575A /* AppDelegate.swift in Sources */,
 			);
@@ -421,6 +477,7 @@
 				CB4A96731B12A6B80020575A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4A96741B12A6B80020575A /* Build configuration list for PBXNativeTarget "FreshAndEasyTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +486,7 @@
 				CB4A96761B12A6B80020575A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

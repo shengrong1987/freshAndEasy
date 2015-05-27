@@ -6,7 +6,6 @@
 //  Copyright (c) 2015年 Aimbebe. All rights reserved.
 //
 
-import UIKit
 import SpriteKit
 
 extension SKNode {
