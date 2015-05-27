@@ -20,6 +20,10 @@
 		CB4A96B11B1525230020575A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A96AF1B1525230020575A /* spark.png */; };
 		CB4A96B51B1527BE0020575A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96B41B1527BE0020575A /* Item.swift */; };
 		CB4A96B71B1528190020575A /* Enumertations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96B61B1528190020575A /* Enumertations.swift */; };
+		CB4A96BF1B1686F30020575A /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96BE1B1686F30020575A /* State.swift */; };
+		CB4A96C11B1687900020575A /* CatRunAwayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C01B1687900020575A /* CatRunAwayState.swift */; };
+		CB4A96C31B1687E40020575A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C21B1687E40020575A /* Cat.swift */; };
+		CB4A96C51B168AED0020575A /* CatStayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C41B168AED0020575A /* CatStayState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		CB4A96AF1B1525230020575A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		CB4A96B41B1527BE0020575A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CB4A96B61B1528190020575A /* Enumertations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumertations.swift; sourceTree = "<group>"; };
+		CB4A96BE1B1686F30020575A /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		CB4A96C01B1687900020575A /* CatRunAwayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatRunAwayState.swift; sourceTree = "<group>"; };
+		CB4A96C21B1687E40020575A /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		CB4A96C41B168AED0020575A /* CatStayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatStayState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				CB4A96A71B15153A0020575A /* gameAI.plist */,
 				CB4A96B61B1528190020575A /* Enumertations.swift */,
 				CB4A96B41B1527BE0020575A /* Item.swift */,
+				CB4A96BE1B1686F30020575A /* State.swift */,
+				CB4A96C21B1687E40020575A /* Cat.swift */,
+				CB4A96C01B1687900020575A /* CatRunAwayState.swift */,
+				CB4A96C41B168AED0020575A /* CatStayState.swift */,
 			);
 			path = FreshAndEasy;
 			sourceTree = "<group>";
@@ -278,10 +290,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4A96581B12A6B70020575A /* GameScene.swift in Sources */,
+				CB4A96C51B168AED0020575A /* CatStayState.swift in Sources */,
+				CB4A96C11B1687900020575A /* CatRunAwayState.swift in Sources */,
 				CB4A96B71B1528190020575A /* Enumertations.swift in Sources */,
 				CB4A96B51B1527BE0020575A /* Item.swift in Sources */,
+				CB4A96C31B1687E40020575A /* Cat.swift in Sources */,
 				CB4A965A1B12A6B70020575A /* GameViewController.swift in Sources */,
 				CB4A96541B12A6B70020575A /* AppDelegate.swift in Sources */,
+				CB4A96BF1B1686F30020575A /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
