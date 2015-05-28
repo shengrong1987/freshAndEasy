@@ -24,23 +24,20 @@
 		CB4A96C11B1687900020575A /* CatRunAwayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C01B1687900020575A /* CatRunAwayState.swift */; };
 		CB4A96C31B1687E40020575A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C21B1687E40020575A /* Cat.swift */; };
 		CB4A96C51B168AED0020575A /* CatStayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C41B168AED0020575A /* CatStayState.swift */; };
-		F22FEEC21B16854900A94187 /* Scene1_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEC11B16854900A94187 /* Scene1_bg.png */; };
 		F22FEEDB1B16886300A94187 /* knite stick_it.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEED91B16886300A94187 /* knite stick_it.png */; };
-		F22FEEDC1B16886300A94187 /* furry ball_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEDA1B16886300A94187 /* furry ball_01.png */; };
-		F22FEEE91B16891200A94187 /* window_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE81B16891200A94187 /* window_01.png */; };
 		F22FEEEC1B16995900A94187 /* painting_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEEA1B16995900A94187 /* painting_01.png */; };
 		F22FEEED1B16995900A94187 /* painting_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEEB1B16995900A94187 /* painting_02.png */; };
-		F22FEEEF1B16999200A94187 /* desk.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEEE1B16999200A94187 /* desk.png */; };
-		F22FEEF11B1699A100A94187 /* furry ball_it.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF01B1699A100A94187 /* furry ball_it.png */; };
 		F22FEEFB1B1699F300A94187 /* basket_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF21B1699F300A94187 /* basket_01.png */; };
-		F22FEEFC1B1699F300A94187 /* basket_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF31B1699F300A94187 /* basket_02.png */; };
-		F22FEEFD1B1699F300A94187 /* bed_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF41B1699F300A94187 /* bed_01.png */; };
 		F22FEEFE1B1699F300A94187 /* chair_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF51B1699F300A94187 /* chair_01.png */; };
 		F22FEEFF1B1699F300A94187 /* door_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF61B1699F300A94187 /* door_01.png */; };
 		F22FEF001B1699F300A94187 /* door_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF71B1699F300A94187 /* door_02.png */; };
-		F22FEF011B1699F300A94187 /* knite stick_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF81B1699F300A94187 /* knite stick_01.png */; };
 		F22FEF021B1699F300A94187 /* mirror_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEF91B1699F300A94187 /* mirror_01.png */; };
 		F22FEF031B1699F300A94187 /* mirror_it.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEFA1B1699F300A94187 /* mirror_it.png */; };
+		F22FEF061B169BF500A94187 /* basket_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEF041B169BF500A94187 /* basket_01.png */; };
+		F22FEF071B169BF500A94187 /* basket_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEF051B169BF500A94187 /* basket_02.png */; };
+		F22FEF091B169C0600A94187 /* Scene1_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEF081B169C0600A94187 /* Scene1_bg.png */; };
+		F22FEF0B1B169C1500A94187 /* window_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEF0A1B169C1500A94187 /* window_01.png */; };
+		F22FEF0E1B169C7F00A94187 /* table_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEF0D1B169C7F00A94187 /* table_01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,16 +72,13 @@
 		CB4A96C01B1687900020575A /* CatRunAwayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatRunAwayState.swift; sourceTree = "<group>"; };
 		CB4A96C21B1687E40020575A /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		CB4A96C41B168AED0020575A /* CatStayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatStayState.swift; sourceTree = "<group>"; };
-		F22FEEC11B16854900A94187 /* Scene1_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scene1_bg.png; path = FreshAndEasy/Images.xcassets/Scene1_bg.png; sourceTree = "<group>"; };
 		F22FEED91B16886300A94187 /* knite stick_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_it.png"; path = "Images.xcassets/knite stick_it.png"; sourceTree = "<group>"; };
 		F22FEEDA1B16886300A94187 /* furry ball_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_01.png"; path = "Images.xcassets/furry ball_01.png"; sourceTree = "<group>"; };
-		F22FEEE81B16891200A94187 /* window_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = window_01.png; path = Images.xcassets/window_01.png; sourceTree = "<group>"; };
 		F22FEEEA1B16995900A94187 /* painting_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_01.png; path = Images.xcassets/painting_01.png; sourceTree = "<group>"; };
 		F22FEEEB1B16995900A94187 /* painting_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_02.png; path = Images.xcassets/painting_02.png; sourceTree = "<group>"; };
-		F22FEEEE1B16999200A94187 /* desk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = desk.png; path = Images.xcassets/desk.png; sourceTree = "<group>"; };
+		F22FEEEE1B16999200A94187 /* desk_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = desk_01.png; path = Images.xcassets/desk_01.png; sourceTree = "<group>"; };
 		F22FEEF01B1699A100A94187 /* furry ball_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_it.png"; path = "Images.xcassets/furry ball_it.png"; sourceTree = "<group>"; };
 		F22FEEF21B1699F300A94187 /* basket_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_01.png; path = Images.xcassets/basket_01.png; sourceTree = "<group>"; };
-		F22FEEF31B1699F300A94187 /* basket_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_02.png; path = Images.xcassets/basket_02.png; sourceTree = "<group>"; };
 		F22FEEF41B1699F300A94187 /* bed_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bed_01.png; path = Images.xcassets/bed_01.png; sourceTree = "<group>"; };
 		F22FEEF51B1699F300A94187 /* chair_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair_01.png; path = Images.xcassets/chair_01.png; sourceTree = "<group>"; };
 		F22FEEF61B1699F300A94187 /* door_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_01.png; path = Images.xcassets/door_01.png; sourceTree = "<group>"; };
@@ -92,6 +86,11 @@
 		F22FEEF81B1699F300A94187 /* knite stick_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_01.png"; path = "Images.xcassets/knite stick_01.png"; sourceTree = "<group>"; };
 		F22FEEF91B1699F300A94187 /* mirror_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_01.png; path = Images.xcassets/mirror_01.png; sourceTree = "<group>"; };
 		F22FEEFA1B1699F300A94187 /* mirror_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_it.png; path = Images.xcassets/mirror_it.png; sourceTree = "<group>"; };
+		F22FEF041B169BF500A94187 /* basket_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_01.png; path = Images.xcassets/basket_01.png; sourceTree = "<group>"; };
+		F22FEF051B169BF500A94187 /* basket_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_02.png; path = Images.xcassets/basket_02.png; sourceTree = "<group>"; };
+		F22FEF081B169C0600A94187 /* Scene1_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scene1_bg.png; path = FreshAndEasy/Images.xcassets/Scene1_bg.png; sourceTree = "<group>"; };
+		F22FEF0A1B169C1500A94187 /* window_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = window_01.png; path = Images.xcassets/window_01.png; sourceTree = "<group>"; };
+		F22FEF0D1B169C7F00A94187 /* table_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table_01.png; path = Images.xcassets/table_01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +181,7 @@
 		CB4A96A11B13FC7A0020575A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F22FEF0C1B169C6500A94187 /* table */,
 				F22FEEE71B1688F500A94187 /* window */,
 				F22FEED21B16878400A94187 /* desk */,
 				F22FEED11B16877C00A94187 /* painting */,
@@ -219,7 +219,7 @@
 		CB4A96BC1B15413C0020575A /* scene1_bg */ = {
 			isa = PBXGroup;
 			children = (
-				CB4A97261B1694E70020575A /* Scene1_bg.png */,
+				F22FEF081B169C0600A94187 /* Scene1_bg.png */,
 			);
 			name = scene1_bg;
 			path = ..;
@@ -228,8 +228,6 @@
 		CB4A96C61B16907C0020575A /* default.atlas */ = {
 			isa = PBXGroup;
 			children = (
-				CB4A97201B1694CA0020575A /* basket_01.png */,
-				CB4A97211B1694CA0020575A /* basket_02.png */,
 			);
 			name = default.atlas;
 			sourceTree = "<group>";
@@ -252,7 +250,8 @@
 		F22FEEC61B16869F00A94187 /* basket */ = {
 			isa = PBXGroup;
 			children = (
-				CB4A971C1B1694AA0020575A /* basket_01.png */,
+				F22FEF041B169BF500A94187 /* basket_01.png */,
+				F22FEF051B169BF500A94187 /* basket_02.png */,
 				CB4A96C71B1690C10020575A /* basketshake.atlas */,
 				CB4A96C61B16907C0020575A /* default.atlas */,
 			);
@@ -313,7 +312,7 @@
 		F22FEED21B16878400A94187 /* desk */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEEE1B16999200A94187 /* desk.png */,
+				F22FEEEE1B16999200A94187 /* desk_01.png */,
 			);
 			name = desk;
 			sourceTree = "<group>";
@@ -321,9 +320,17 @@
 		F22FEEE71B1688F500A94187 /* window */ = {
 			isa = PBXGroup;
 			children = (
-				CB4A97061B16944C0020575A /* window_01.png */,
+				F22FEF0A1B169C1500A94187 /* window_01.png */,
 			);
 			name = window;
+			sourceTree = "<group>";
+		};
+		F22FEF0C1B169C6500A94187 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				F22FEF0D1B169C7F00A94187 /* table_01.png */,
+			);
+			name = table;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,26 +414,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4A96A81B15153A0020575A /* gameAI.plist in Resources */,
-				CB4A97231B1694CA0020575A /* basket_02.png in Resources */,
-				CB4A97091B1694590020575A /* desk.png in Resources */,
-				CB4A97271B1694E70020575A /* Scene1_bg.png in Resources */,
 				CB4A96B01B1525230020575A /* shine.sks in Resources */,
-				CB4A97251B1694DD0020575A /* bed_01.png in Resources */,
-				CB4A97101B1694720020575A /* knite stick_01.png in Resources */,
+				F22FEF061B169BF500A94187 /* basket_01.png in Resources */,
 				CB4A96621B12A6B70020575A /* LaunchScreen.xib in Resources */,
-				CB4A97171B16948D0020575A /* chair_01.png in Resources */,
-				CB4A97071B16944C0020575A /* window_01.png in Resources */,
-				CB4A972A1B16950F0020575A /* door_01.png in Resources */,
-				CB4A97151B1694830020575A /* furry ball_it.png in Resources */,
-				CB4A972B1B16950F0020575A /* door_02.png in Resources */,
-				CB4A97221B1694CA0020575A /* basket_01.png in Resources */,
+				F22FEF0B1B169C1500A94187 /* window_01.png in Resources */,
 				CB4A96B11B1525230020575A /* spark.png in Resources */,
-				CB4A971A1B16949A0020575A /* mirror_01.png in Resources */,
+				F22FEF071B169BF500A94187 /* basket_02.png in Resources */,
 				CB4A965F1B12A6B70020575A /* Images.xcassets in Resources */,
 				F22FEF021B1699F300A94187 /* mirror_01.png in Resources */,
 				F22FEEFB1B1699F300A94187 /* basket_01.png in Resources */,
 				CB4A96561B12A6B70020575A /* GameScene01.sks in Resources */,
 				F22FEEFE1B1699F300A94187 /* chair_01.png in Resources */,
+				F22FEF0E1B169C7F00A94187 /* table_01.png in Resources */,
+				F22FEF091B169C0600A94187 /* Scene1_bg.png in Resources */,
 				F22FEEDB1B16886300A94187 /* knite stick_it.png in Resources */,
 				F22FEF001B1699F300A94187 /* door_02.png in Resources */,
 				CB4A965D1B12A6B70020575A /* Main.storyboard in Resources */,
