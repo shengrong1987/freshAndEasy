@@ -24,23 +24,24 @@
 		CB4A96C11B1687900020575A /* CatRunAwayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C01B1687900020575A /* CatRunAwayState.swift */; };
 		CB4A96C31B1687E40020575A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C21B1687E40020575A /* Cat.swift */; };
 		CB4A96C51B168AED0020575A /* CatStayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4A96C41B168AED0020575A /* CatStayState.swift */; };
-		F22FEEBF1B16850800A94187 /* door_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEBD1B16850800A94187 /* door_02.png */; };
-		F22FEEC01B16850800A94187 /* door_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEBE1B16850800A94187 /* door_01.png */; };
-		F22FEEC21B16854900A94187 /* Scene1_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEC11B16854900A94187 /* Scene1_bg.png */; };
-		F22FEEC51B16869200A94187 /* bed_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEC41B16869200A94187 /* bed_01.png */; };
-		F22FEEC91B1686D300A94187 /* basket_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEC71B1686D300A94187 /* basket_02.png */; };
-		F22FEECA1B1686D300A94187 /* basket_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEC81B1686D300A94187 /* basket_01.png */; };
-		F22FEED41B1687B700A94187 /* desk.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEED31B1687B700A94187 /* desk.png */; };
-		F22FEED71B1687E100A94187 /* painting_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEED51B1687E100A94187 /* painting_01.png */; };
-		F22FEED81B1687E100A94187 /* painting_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEED61B1687E100A94187 /* painting_02.png */; };
-		F22FEEDB1B16886300A94187 /* knite stick_it.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEED91B16886300A94187 /* knite stick_it.png */; };
-		F22FEEDC1B16886300A94187 /* knite stick_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEDA1B16886300A94187 /* knite stick_01.png */; };
-		F22FEEDF1B16889000A94187 /* furry ball_it.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEDD1B16889000A94187 /* furry ball_it.png */; };
-		F22FEEE01B16889000A94187 /* furry ball_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEDE1B16889000A94187 /* furry ball_01.png */; };
-		F22FEEE21B1688B900A94187 /* chair_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE11B1688B900A94187 /* chair_01.png */; };
-		F22FEEE51B1688E000A94187 /* mirror_it.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE31B1688E000A94187 /* mirror_it.png */; };
-		F22FEEE61B1688E000A94187 /* mirror_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE41B1688E000A94187 /* mirror_01.png */; };
-		F22FEEE91B16891200A94187 /* window_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F22FEEE81B16891200A94187 /* window_01.png */; };
+		CB4A97071B16944C0020575A /* window_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97061B16944C0020575A /* window_01.png */; };
+		CB4A97091B1694590020575A /* desk.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97081B1694590020575A /* desk.png */; };
+		CB4A970C1B1694680020575A /* painting_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A970A1B1694680020575A /* painting_01.png */; };
+		CB4A970D1B1694680020575A /* painting_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A970B1B1694680020575A /* painting_02.png */; };
+		CB4A97101B1694720020575A /* knite stick_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A970E1B1694720020575A /* knite stick_01.png */; };
+		CB4A97111B1694720020575A /* knite stick_it.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A970F1B1694720020575A /* knite stick_it.png */; };
+		CB4A97141B1694830020575A /* furry ball_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97121B1694830020575A /* furry ball_01.png */; };
+		CB4A97151B1694830020575A /* furry ball_it.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97131B1694830020575A /* furry ball_it.png */; };
+		CB4A97171B16948D0020575A /* chair_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97161B16948D0020575A /* chair_01.png */; };
+		CB4A971A1B16949A0020575A /* mirror_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97181B16949A0020575A /* mirror_01.png */; };
+		CB4A971B1B16949A0020575A /* mirror_it.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97191B16949A0020575A /* mirror_it.png */; };
+		CB4A971E1B1694AA0020575A /* basket_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A971C1B1694AA0020575A /* basket_01.png */; };
+		CB4A97221B1694CA0020575A /* basket_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97201B1694CA0020575A /* basket_01.png */; };
+		CB4A97231B1694CA0020575A /* basket_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97211B1694CA0020575A /* basket_02.png */; };
+		CB4A97251B1694DD0020575A /* bed_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97241B1694DD0020575A /* bed_01.png */; };
+		CB4A97271B1694E70020575A /* Scene1_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97261B1694E70020575A /* Scene1_bg.png */; };
+		CB4A972A1B16950F0020575A /* door_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97281B16950F0020575A /* door_01.png */; };
+		CB4A972B1B16950F0020575A /* door_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4A97291B16950F0020575A /* door_02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,23 +76,24 @@
 		CB4A96C01B1687900020575A /* CatRunAwayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatRunAwayState.swift; sourceTree = "<group>"; };
 		CB4A96C21B1687E40020575A /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		CB4A96C41B168AED0020575A /* CatStayState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatStayState.swift; sourceTree = "<group>"; };
-		F22FEEBD1B16850800A94187 /* door_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_02.png; path = "../../../Desktop/Game Finding Easy/trans01/door_02.png"; sourceTree = "<group>"; };
-		F22FEEBE1B16850800A94187 /* door_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_01.png; path = "../../../Desktop/Game Finding Easy/trans01/door_01.png"; sourceTree = "<group>"; };
-		F22FEEC11B16854900A94187 /* Scene1_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scene1_bg.png; path = "../../../Desktop/Game Finding Easy/trans01/Scene1_bg.png"; sourceTree = "<group>"; };
-		F22FEEC41B16869200A94187 /* bed_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bed_01.png; path = "../../../Desktop/Game Finding Easy/trans01/bed_01.png"; sourceTree = "<group>"; };
-		F22FEEC71B1686D300A94187 /* basket_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_02.png; path = "../../../Desktop/Game Finding Easy/trans01/basket_02.png"; sourceTree = "<group>"; };
-		F22FEEC81B1686D300A94187 /* basket_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_01.png; path = "../../../Desktop/Game Finding Easy/trans01/basket_01.png"; sourceTree = "<group>"; };
-		F22FEED31B1687B700A94187 /* desk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = desk.png; path = "../../../Desktop/Game Finding Easy/trans01/desk.png"; sourceTree = "<group>"; };
-		F22FEED51B1687E100A94187 /* painting_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_01.png; path = "../../../Desktop/Game Finding Easy/trans01/painting_01.png"; sourceTree = "<group>"; };
-		F22FEED61B1687E100A94187 /* painting_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_02.png; path = "../../../Desktop/Game Finding Easy/trans01/painting_02.png"; sourceTree = "<group>"; };
-		F22FEED91B16886300A94187 /* knite stick_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_it.png"; path = "../../../Desktop/Game Finding Easy/trans01/knite stick_it.png"; sourceTree = "<group>"; };
-		F22FEEDA1B16886300A94187 /* knite stick_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_01.png"; path = "../../../Desktop/Game Finding Easy/trans01/knite stick_01.png"; sourceTree = "<group>"; };
-		F22FEEDD1B16889000A94187 /* furry ball_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_it.png"; path = "../../../Desktop/Game Finding Easy/trans01/furry ball_it.png"; sourceTree = "<group>"; };
-		F22FEEDE1B16889000A94187 /* furry ball_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_01.png"; path = "../../../Desktop/Game Finding Easy/trans01/furry ball_01.png"; sourceTree = "<group>"; };
-		F22FEEE11B1688B900A94187 /* chair_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair_01.png; path = "../../../Desktop/Game Finding Easy/trans01/chair_01.png"; sourceTree = "<group>"; };
-		F22FEEE31B1688E000A94187 /* mirror_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_it.png; path = "../../../Desktop/Game Finding Easy/trans01/mirror_it.png"; sourceTree = "<group>"; };
-		F22FEEE41B1688E000A94187 /* mirror_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_01.png; path = "../../../Desktop/Game Finding Easy/trans01/mirror_01.png"; sourceTree = "<group>"; };
-		F22FEEE81B16891200A94187 /* window_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = window_01.png; path = "../../../Desktop/Game Finding Easy/trans01/window_01.png"; sourceTree = "<group>"; };
+		CB4A97061B16944C0020575A /* window_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = window_01.png; path = Images.xcassets/window_01.png; sourceTree = "<group>"; };
+		CB4A97081B1694590020575A /* desk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = desk.png; path = Images.xcassets/desk.png; sourceTree = "<group>"; };
+		CB4A970A1B1694680020575A /* painting_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_01.png; path = Images.xcassets/painting_01.png; sourceTree = "<group>"; };
+		CB4A970B1B1694680020575A /* painting_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = painting_02.png; path = Images.xcassets/painting_02.png; sourceTree = "<group>"; };
+		CB4A970E1B1694720020575A /* knite stick_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_01.png"; path = "Images.xcassets/knite stick_01.png"; sourceTree = "<group>"; };
+		CB4A970F1B1694720020575A /* knite stick_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knite stick_it.png"; path = "Images.xcassets/knite stick_it.png"; sourceTree = "<group>"; };
+		CB4A97121B1694830020575A /* furry ball_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_01.png"; path = "Images.xcassets/furry ball_01.png"; sourceTree = "<group>"; };
+		CB4A97131B1694830020575A /* furry ball_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "furry ball_it.png"; path = "Images.xcassets/furry ball_it.png"; sourceTree = "<group>"; };
+		CB4A97161B16948D0020575A /* chair_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chair_01.png; path = Images.xcassets/chair_01.png; sourceTree = "<group>"; };
+		CB4A97181B16949A0020575A /* mirror_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_01.png; path = Images.xcassets/mirror_01.png; sourceTree = "<group>"; };
+		CB4A97191B16949A0020575A /* mirror_it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mirror_it.png; path = Images.xcassets/mirror_it.png; sourceTree = "<group>"; };
+		CB4A971C1B1694AA0020575A /* basket_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_01.png; path = Images.xcassets/basket_01.png; sourceTree = "<group>"; };
+		CB4A97201B1694CA0020575A /* basket_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_01.png; path = Images.xcassets/basket_01.png; sourceTree = "<group>"; };
+		CB4A97211B1694CA0020575A /* basket_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basket_02.png; path = Images.xcassets/basket_02.png; sourceTree = "<group>"; };
+		CB4A97241B1694DD0020575A /* bed_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bed_01.png; path = Images.xcassets/bed_01.png; sourceTree = "<group>"; };
+		CB4A97261B1694E70020575A /* Scene1_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scene1_bg.png; path = Images.xcassets/Scene1_bg.png; sourceTree = "<group>"; };
+		CB4A97281B16950F0020575A /* door_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_01.png; path = Images.xcassets/door_01.png; sourceTree = "<group>"; };
+		CB4A97291B16950F0020575A /* door_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = door_02.png; path = Images.xcassets/door_02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,8 +203,8 @@
 		CB4A96A91B1517E50020575A /* door */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEBD1B16850800A94187 /* door_02.png */,
-				F22FEEBE1B16850800A94187 /* door_01.png */,
+				CB4A97281B16950F0020575A /* door_01.png */,
+				CB4A97291B16950F0020575A /* door_02.png */,
 			);
 			name = door;
 			sourceTree = "<group>";
@@ -219,7 +221,7 @@
 		CB4A96BC1B15413C0020575A /* scene1_bg */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEC11B16854900A94187 /* Scene1_bg.png */,
+				CB4A97261B1694E70020575A /* Scene1_bg.png */,
 			);
 			name = scene1_bg;
 			sourceTree = "<group>";
@@ -227,6 +229,8 @@
 		CB4A96C61B16907C0020575A /* default.atlas */ = {
 			isa = PBXGroup;
 			children = (
+				CB4A97201B1694CA0020575A /* basket_01.png */,
+				CB4A97211B1694CA0020575A /* basket_02.png */,
 			);
 			name = default.atlas;
 			sourceTree = "<group>";
@@ -241,7 +245,7 @@
 		F22FEEC31B16857900A94187 /* bed */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEC41B16869200A94187 /* bed_01.png */,
+				CB4A97241B1694DD0020575A /* bed_01.png */,
 			);
 			name = bed;
 			sourceTree = "<group>";
@@ -249,10 +253,9 @@
 		F22FEEC61B16869F00A94187 /* basket */ = {
 			isa = PBXGroup;
 			children = (
+				CB4A971C1B1694AA0020575A /* basket_01.png */,
 				CB4A96C71B1690C10020575A /* basketshake.atlas */,
 				CB4A96C61B16907C0020575A /* default.atlas */,
-				F22FEEC71B1686D300A94187 /* basket_02.png */,
-				F22FEEC81B1686D300A94187 /* basket_01.png */,
 			);
 			name = basket;
 			sourceTree = "<group>";
@@ -267,8 +270,8 @@
 		F22FEECD1B16875700A94187 /* mirror */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEE31B1688E000A94187 /* mirror_it.png */,
-				F22FEEE41B1688E000A94187 /* mirror_01.png */,
+				CB4A97181B16949A0020575A /* mirror_01.png */,
+				CB4A97191B16949A0020575A /* mirror_it.png */,
 			);
 			name = mirror;
 			sourceTree = "<group>";
@@ -276,7 +279,7 @@
 		F22FEECE1B16875E00A94187 /* chair */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEE11B1688B900A94187 /* chair_01.png */,
+				CB4A97161B16948D0020575A /* chair_01.png */,
 			);
 			name = chair;
 			sourceTree = "<group>";
@@ -284,8 +287,8 @@
 		F22FEECF1B16876700A94187 /* furry ball */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEDD1B16889000A94187 /* furry ball_it.png */,
-				F22FEEDE1B16889000A94187 /* furry ball_01.png */,
+				CB4A97121B1694830020575A /* furry ball_01.png */,
+				CB4A97131B1694830020575A /* furry ball_it.png */,
 			);
 			name = "furry ball";
 			sourceTree = "<group>";
@@ -293,8 +296,8 @@
 		F22FEED01B16877100A94187 /* knite stick */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEED91B16886300A94187 /* knite stick_it.png */,
-				F22FEEDA1B16886300A94187 /* knite stick_01.png */,
+				CB4A970E1B1694720020575A /* knite stick_01.png */,
+				CB4A970F1B1694720020575A /* knite stick_it.png */,
 			);
 			name = "knite stick";
 			sourceTree = "<group>";
@@ -302,8 +305,8 @@
 		F22FEED11B16877C00A94187 /* painting */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEED51B1687E100A94187 /* painting_01.png */,
-				F22FEED61B1687E100A94187 /* painting_02.png */,
+				CB4A970A1B1694680020575A /* painting_01.png */,
+				CB4A970B1B1694680020575A /* painting_02.png */,
 			);
 			name = painting;
 			sourceTree = "<group>";
@@ -311,7 +314,7 @@
 		F22FEED21B16878400A94187 /* desk */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEED31B1687B700A94187 /* desk.png */,
+				CB4A97081B1694590020575A /* desk.png */,
 			);
 			name = desk;
 			sourceTree = "<group>";
@@ -319,7 +322,7 @@
 		F22FEEE71B1688F500A94187 /* window */ = {
 			isa = PBXGroup;
 			children = (
-				F22FEEE81B16891200A94187 /* window_01.png */,
+				CB4A97061B16944C0020575A /* window_01.png */,
 			);
 			name = window;
 			sourceTree = "<group>";
@@ -405,29 +408,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4A96A81B15153A0020575A /* gameAI.plist in Resources */,
+				CB4A97231B1694CA0020575A /* basket_02.png in Resources */,
+				CB4A97091B1694590020575A /* desk.png in Resources */,
+				CB4A97271B1694E70020575A /* Scene1_bg.png in Resources */,
 				CB4A96B01B1525230020575A /* shine.sks in Resources */,
-				F22FEEDC1B16886300A94187 /* knite stick_01.png in Resources */,
-				F22FEEE21B1688B900A94187 /* chair_01.png in Resources */,
-				F22FEED41B1687B700A94187 /* desk.png in Resources */,
-				F22FEED71B1687E100A94187 /* painting_01.png in Resources */,
+				CB4A97251B1694DD0020575A /* bed_01.png in Resources */,
+				CB4A97101B1694720020575A /* knite stick_01.png in Resources */,
 				CB4A96621B12A6B70020575A /* LaunchScreen.xib in Resources */,
-				F22FEEC21B16854900A94187 /* Scene1_bg.png in Resources */,
-				F22FEEE91B16891200A94187 /* window_01.png in Resources */,
-				F22FEEE01B16889000A94187 /* furry ball_01.png in Resources */,
-				F22FEEBF1B16850800A94187 /* door_02.png in Resources */,
-				F22FEECA1B1686D300A94187 /* basket_01.png in Resources */,
-				F22FEEC01B16850800A94187 /* door_01.png in Resources */,
+				CB4A97171B16948D0020575A /* chair_01.png in Resources */,
+				CB4A97071B16944C0020575A /* window_01.png in Resources */,
+				CB4A972A1B16950F0020575A /* door_01.png in Resources */,
+				CB4A97151B1694830020575A /* furry ball_it.png in Resources */,
+				CB4A972B1B16950F0020575A /* door_02.png in Resources */,
+				CB4A97221B1694CA0020575A /* basket_01.png in Resources */,
 				CB4A96B11B1525230020575A /* spark.png in Resources */,
-				F22FEEE61B1688E000A94187 /* mirror_01.png in Resources */,
+				CB4A971A1B16949A0020575A /* mirror_01.png in Resources */,
 				CB4A965F1B12A6B70020575A /* Images.xcassets in Resources */,
 				CB4A96561B12A6B70020575A /* GameScene01.sks in Resources */,
-				F22FEEDF1B16889000A94187 /* furry ball_it.png in Resources */,
-				F22FEEC51B16869200A94187 /* bed_01.png in Resources */,
-				F22FEEE51B1688E000A94187 /* mirror_it.png in Resources */,
-				F22FEEDB1B16886300A94187 /* knite stick_it.png in Resources */,
-				F22FEED81B1687E100A94187 /* painting_02.png in Resources */,
+				CB4A97111B1694720020575A /* knite stick_it.png in Resources */,
+				CB4A971E1B1694AA0020575A /* basket_01.png in Resources */,
+				CB4A97141B1694830020575A /* furry ball_01.png in Resources */,
+				CB4A970C1B1694680020575A /* painting_01.png in Resources */,
+				CB4A970D1B1694680020575A /* painting_02.png in Resources */,
 				CB4A965D1B12A6B70020575A /* Main.storyboard in Resources */,
-				F22FEEC91B1686D300A94187 /* basket_02.png in Resources */,
+				CB4A971B1B16949A0020575A /* mirror_it.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
