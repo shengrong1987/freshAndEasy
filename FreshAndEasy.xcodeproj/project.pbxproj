@@ -421,6 +421,7 @@
 				CB4A96B11B1525230020575A /* spark.png in Resources */,
 				F22FEF071B169BF500A94187 /* basket_02.png in Resources */,
 				CB4A965F1B12A6B70020575A /* Images.xcassets in Resources */,
+				CB4A97331B169C340020575A /* basket_01.png in Resources */,
 				F22FEF021B1699F300A94187 /* mirror_01.png in Resources */,
 				F22FEEFB1B1699F300A94187 /* basket_01.png in Resources */,
 				CB4A96561B12A6B70020575A /* GameScene01.sks in Resources */,
@@ -430,10 +431,13 @@
 				F22FEEDB1B16886300A94187 /* knite stick_it.png in Resources */,
 				F22FEF001B1699F300A94187 /* door_02.png in Resources */,
 				CB4A965D1B12A6B70020575A /* Main.storyboard in Resources */,
+				CB4A97351B169C440020575A /* Scene1_bg.png in Resources */,
+				CB4A97311B169C060020575A /* basket_02.png in Resources */,
 				F22FEEEC1B16995900A94187 /* painting_01.png in Resources */,
 				F22FEEFF1B1699F300A94187 /* door_01.png in Resources */,
 				F22FEEED1B16995900A94187 /* painting_02.png in Resources */,
 				F22FEF031B1699F300A94187 /* mirror_it.png in Resources */,
+				CB4A972D1B169BF20020575A /* window_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
